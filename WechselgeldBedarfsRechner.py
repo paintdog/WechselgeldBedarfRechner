@@ -61,5 +61,5 @@ for cent in cents:
         print(f"  {cent} ¢-Münze   x {cent_bedarf[cent]: 4d} = {cent * cent_bedarf[cent] / 100:8.2f} €" )
     
 
-assert(summe_beträge, round(summe_check, 2))
+assert summe_beträge, round(summe_check, 2) 
 print(summe_beträge, round(summe_check, 2))
